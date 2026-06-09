@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kofeina & Rzemiosło | Płock</title>
+    <title>Kofeina i Rzemiosło | Płock</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
@@ -12,126 +12,137 @@
 </head>
 <body>
 
-    <header class="main-header">
-        <div class="top-bar-wrapper">
-            <div class="brand-logo">Kofeina<span>&</span>Rzemiosło</div>
-            <nav class="navigation-links">
-                <a href="#produkty">Co serwujemy</a>
-                <a href="#historia">Nasza historia</a>
-                <a href="#zdjecia">Zdjęcia</a>
-                <a href="#namiary">Namiary</a>
+    <header class="site-header">
+        <div class="header-inner">
+            <div class="site-logo">Kofeina<span>&</span>Rzemiosło</div>
+            <nav class="main-nav">
+                <a href="#karty-menu">Menu</a>
+                <a href="#o-naszej-pasji">O nas</a>
+                <a href="#galeria-zdjec">Galeria</a>
+                <a href="#sekcja-kontaktowa">Kontakt</a>
             </nav>
         </div>
     </header>
 
-    <main class="page-content">
-        <section class="start-banner">
-            <div class="banner-content">
-                <h1 class="main-heading">Twoja nowa ulubiona kawa</h1>
-                <p class="sub-heading">Bez kompromisów, bez pośpiechu. Przyjdź i poczuj różnicę w każdej filiżance parzonej przez pasjonatów z Płocka.</p>
-                <a href="#produkty" class="action-button">Zobacz ofertę</a>
+    <main>
+        <section class="welcome-hero">
+            <div class="hero-box">
+                <h1 class="hero-title">Twoja nowa ulubiona kawa</h1>
+                <p class="hero-lead">Bez kompromisów, bez pośpiechu. Przyjdź i poczuj różnicę w każdej filiżance parzonej przez pasjonatów z Płocka.</p>
+                <a href="#karty-menu" class="cta-button">Zobacz ofertę</a>
             </div>
         </section>
 
-        <!-- Sekcja z ofertą (Przeniesiona wyżej!) -->
-        <section id="produkty" class="content-block bg-accent">
-            <h2 class="block-title">Co serwujemy</h2>
-            <div class="products-grid">
-                <div class="product-item">
-                    <div class="product-header">
-                        <h3>Szot Espresso</h3>
-                        <span class="cost">10 PLN</span>
-                    </div>
-                    <p>Klasyka gatunku. Gęsty, aromatyczny napar z naszej autorskiej mieszanki ziaren z Ameryki Południowej.</p>
-                </div>
-                <div class="product-item">
-                    <div class="product-header">
-                        <h3>Owsiany Flat White</h3>
-                        <span class="cost">17 PLN</span>
-                    </div>
-                    <p>Dwa szoty espresso zalane idealnie spienionym mlekiem roślinnym. Nasz hit wśród stałych bywalców.</p>
-                </div>
-                <div class="product-item">
-                    <div class="product-header">
-                        <h3>Drip V60</h3>
-                        <span class="cost">19 PLN</span>
-                    </div>
-                    <p>Czarna magia z filtra. Kawa o herbacianej konsystencji, pełna owocowych i kwiatowych nut.</p>
-                </div>
-                <div class="product-item">
-                    <div class="product-header">
-                        <h3>Ciasto Dnia</h3>
-                        <span class="cost">16 PLN</span>
-                    </div>
-                    <p>Codziennie wypiekamy coś innego – od tart owocowych po ciężkie, czekoladowe brownie. Zapytaj baristę!</p>
-                </div>
-            </div>
-        </section>
+        <div class="bg-section-gray" id="karty-menu">
+            <section class="section-wrapper">
+                <h2 class="main-title">Co serwujemy</h2>
+                <div class="flex-menu-holder">
+                    <article class="single-item-card">
+                        <div class="item-top">
+                            <h3>Szot Espresso</h3>
+                            <span class="item-price">10 PLN</span>
+                        </div>
+                        <p>Klasyka gatunku. Gęsty, aromatyczny napar z naszej autorskiej mieszanki ziaren z Ameryki Południowej.</p>
+                    </article>
 
-        <!-- Sekcja O Nas -->
-        <section id="historia" class="content-block">
-            <h2 class="block-title">Nasza historia</h2>
-            <p class="story-text">
+                    <article class="single-item-card">
+                        <div class="item-top">
+                            <h3>Owsiany Flat White</h3>
+                            <span class="item-price">17 PLN</span>
+                        </div>
+                        <p>Dwa szoty espresso zalane idealnie spienionym mlekiem roślinnym. Nasz hit wśród stałych bywalców.</p>
+                    </article>
+
+                    <article class="single-item-card">
+                        <div class="item-top">
+                            <h3>Drip V60</h3>
+                            <span class="item-price">19 PLN</span>
+                        </div>
+                        <p>Czarna magia z filtra. Kawa o herbacianej konsystencji, pełna owocowych i kwiatowych nut.</p>
+                    </article>
+
+                    <article class="single-item-card">
+                        <div class="item-top">
+                            <h3>Ciasto Dnia</h3>
+                            <span class="item-price">16 PLN</span>
+                        </div>
+                        <p>Codziennie wypiekamy coś innego – od tart owocowych po ciężkie, czekoladowe brownie. Zapytaj baristę!</p>
+                    </article>
+                </div>
+            </section>
+        </div>
+
+        <section id="o-naszej-pasji" class="section-wrapper">
+            <h2 class="main-title">Nasza historia</h2>
+            <p class="history-paragraph">
                 Zaczynaliśmy w małym garażu z jednym starym ekspresem. Dzisiaj Kofeina & Rzemiosło to przestrzeń, w której łączymy miłość do dobrego designu z obsesją na punkcie jakości ziaren. Nie znajdziesz u nas syropów smakowych – wierzymy, że prawdziwa kawa obroni się sama.
             </p>
         </section>
 
-        <!-- Galeria na Gridzie -->
-        <section id="zdjecia" class="content-block bg-accent">
-            <h2 class="block-title">Migawki z kawiarni</h2>
-            <div class="photo-grid">
-                <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=400" alt="Kawa">
-                <img src="https://images.unsplash.com/photo-1507133750040-4a8f57021571?q=80&w=400" alt="Filiżanka">
-                <img src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?q=80&w=400" alt="Wnętrze">
-            </div>
-        </section>
+        <div class="bg-section-gray" id="galeria-zdjec">
+            <section class="section-wrapper">
+                <h2 class="main-title">Migawki z kawiarni</h2>
+                <div class="flex-gallery-holder">
+                    <div class="gallery-photo-box">
+                        <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=400" alt="Kawa">
+                    </div>
+                    <div class="gallery-photo-box">
+                        <img src="https://images.unsplash.com/photo-1507133750040-4a8f57021571?q=80&w=400" alt="Filiżanka">
+                    </div>
+                    <div class="gallery-photo-box">
+                        <img src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?q=80&w=400" alt="Wnętrze">
+                    </div>
+                </div>
+            </section>
+        </div>
 
-        <!-- Kontakt -->
-        <section id="namiary" class="content-block">
-            <h2 class="block-title">Namiary na nas</h2>
-            <div class="contact-split">
-                <div class="contact-details">
+        <section id="sekcja-kontaktowa" class="section-wrapper">
+            <h2 class="main-title">Namiary na nas</h2>
+            <div class="two-column-layout">
+                
+                <div class="left-contact-side">
                     <h3>Gdzie jesteśmy?</h3>
-                    <ul class="details-list">
+                    <ul class="contact-bullets">
                         <li><strong>Adres:</strong> ul. Przemysłowa 8, Płock</li>
                         <li><strong>Zadzwoń:</strong> 555 444 333</li>
                         <li><strong>Napisz:</strong> hej@kofeinarzemioslo.pl</li>
                         <li><strong>Otwarte:</strong> Codziennie 9:00 - 19:00</li>
                     </ul>
-                    <div class="fake-map"></div>
+                    <div class="static-map-box"></div>
                 </div>
 
-                <div class="contact-form-box">
+                <div class="right-form-side">
                     <h3>Wyślij gołębia</h3>
-                    <form class="custom-form" onsubmit="return false;">
-                        <div class="input-wrap">
-                            <label>Imię i nazwisko</label>
-                            <input type="text" required>
+                    <form class="simple-contact-form" onsubmit="return false;">
+                        <div class="form-row">
+                            <label for="user-name">Imię i nazwisko</label>
+                            <input type="text" id="user-name" required>
                         </div>
-                        <div class="input-wrap">
-                            <label>Adres e-mail</label>
-                            <input type="email" required>
+                        <div class="form-row">
+                            <label for="user-email">Adres e-mail</label>
+                            <input type="email" id="user-email" required>
                         </div>
-                        <div class="input-wrap">
-                            <label>Wiadomość</label>
-                            <textarea rows="4" required></textarea>
+                        <div class="form-row">
+                            <label for="user-msg">Wiadomość</label>
+                            <textarea id="user-msg" rows="4" required></textarea>
                         </div>
-                        <button type="submit" class="action-button">Wyślij</button>
+                        <button type="submit" class="cta-button">Wyślij</button>
                     </form>
                 </div>
+
             </div>
         </section>
     </main>
 
-    <footer class="site-footer">
-        <div class="footer-inner">
-            <div class="brand-logo footer-logo">Kofeina<span>&</span>Rzemiosło</div>
-            <div class="social-icons">
-                <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+    <footer class="page-footer">
+        <div class="footer-container">
+            <div class="site-logo">Kofeina<span>&</span>Rzemiosło</div>
+            <div class="social-box">
+                <a href="#" target="_blank" rel="noopener"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" target="_blank" rel="noopener"><i class="fa-brands fa-tiktok"></i></a>
             </div>
-            <p class="copyrights">Projekt edukacyjny &copy; 2026. Wszelkie prawa zastrzeżone.</p>
+            <p class="copy-text">Projekt edukacyjny &copy; 2026. Wszelkie prawa zastrzeżone.</p>
         </div>
     </footer>
 
